@@ -1,9 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
+import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
+import HomePage from "./scenes/homePage";
+import LoginPage from "./scenes/loginPage";
+import ProfilePage from "./scenes/profilePage";
 
-class App extends Component {
-  render() {
-    return <div className="app"></div>;
-  }
+function App() {
+  return <div className="app">Hello</div>;
 }
 
 export default App;
