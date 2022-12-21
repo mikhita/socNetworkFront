@@ -31,7 +31,7 @@ import {
     const likeCount = Object.keys(likes).length;
   
     const { palette } = useTheme();
-    const main = palette.neutral.main;
+    const main = palette.primary.contrastText;
     const primary = palette.primary.main;
   
     const patchLike = async () => {

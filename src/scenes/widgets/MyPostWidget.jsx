@@ -67,7 +67,7 @@ import {
             value={post}
             sx={{
               width: "100%",
-              backgroundColor: palette.neutral.light,
+              backgroundColor: palette.primary.light,
               borderRadius: "2rem",
               padding: "1rem 2rem",
             }}

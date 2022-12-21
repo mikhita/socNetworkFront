@@ -56,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          Sociopedia
+          Bitcamp101
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
